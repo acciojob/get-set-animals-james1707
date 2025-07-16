@@ -10,7 +10,7 @@ class Animal {
 
  class Dog extends Animal {
        bark(){
-        console.log("bark");
+        console.log("woof");
        }
     }
 
@@ -20,10 +20,15 @@ class Animal {
        }
     }
  
-    let myCat = new Cat("persion");
+    const myCat = new Cat("Siamese");
+    const myDog = new Dog ("Golden Retriever");
+     
 
     myCat.makeSound();
     myCat.purr();
+
+    myDog.makeSound();
+    myDog.bark();
 
 // Do not change the code below this line
 window.Animal = Animal;
