@@ -8,15 +8,15 @@ class Animal {
     }
  }
 
- class Dog extends Animal {
-       bark(){
-        console.log("woof");
+ class Cat extends Animal {
+     purr(){
+        console.log("purr");
        }
     }
 
- class Cat extends Animal {
-        purr(){
-        console.log("purr");
+ class Dof extends Animal {
+        bark(){
+        console.log("woof");
        }
     }
  
